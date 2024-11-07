@@ -1,5 +1,8 @@
+mod day_two;
+
 fn main() {
     gm_to_rust();
+    day_two::main();
 }
 
 // function to print GM Rust!
