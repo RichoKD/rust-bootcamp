@@ -32,7 +32,7 @@ pub fn main() {
     // Signed: i8, i16, i32, i64, i128
     // `&` symbol refers to Referencing, taking a pointer reference
     // `*` symbol refers to Dereferencing, accesing the value behind the pointer.
-    let x = 5;
+    let x: i64 = 5;
     let y = &x;
     let z = &y;
     let sum = **z + 10;
@@ -95,3 +95,16 @@ pub fn main() {
         vect.len()
     );
 }
+
+fn five() -> u8 {
+    5
+}
+
+fn sum(a: i32, b: i32) -> i32 {
+    let c: u8 = 12;
+    i32::from(c) + a + b
+}
+
+// String -> String::new(),
+// &str -> "Rust" string literals.
+// String::from()
