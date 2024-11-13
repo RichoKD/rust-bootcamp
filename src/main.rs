@@ -7,10 +7,7 @@ use crate::week_one::{
     day_two,
 };
 
-use crate::week_two::day_four::{
-    convert_f_to_c,
-    generate_fibonacci_num
-};
+use crate::week_two::day_one::{convert_f_to_c, generate_fibonacci_num};
 
 fn main() {
     day_one::main();
